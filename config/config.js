@@ -18,7 +18,7 @@
 
 module.exports = {
   // Mongo database url
-  mongodb: process.env.MONGODB || 'mongodb://localhost/celebs',
+  mongodb: process.env.MONGODB || 'ethanhermon:sis4MongoDB@ds143777.mlab.com:43777/celebs',
 
   // Personality Insights credentials
   personality_insights: {
